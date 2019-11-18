@@ -1,0 +1,810 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+html {
+    width: 100%;
+    height: 100%;
+}
+#backButtonBoundary {
+    width: 100%;
+    height: 10%;
+
+
+
+}
+#spaceBetweenLogoRegister {
+    float:left;
+    
+}
+#signInRegisterLabelBoundary{
+    width: 100%;
+
+}
+#signInRegisterLabel p {
+    font-family: Arial;
+    font-size: 28px;
+    color: grey;
+    font-weight: bold;
+
+}
+#signInRegisterLabel {
+    width: 94px;
+    margin: auto;
+
+}
+#backButton {
+    width: 75px; 
+    height: 25px;
+    margin-top: 1%;
+    float: left;
+    background: white;
+    border-color: white;
+    
+}
+
+/* Personalization Page */
+
+#personalizationRelaxScreen {
+    width: 100%;
+    height: 100%;
+    background-image: url("relax1.jpeg");
+    background-size: 110% 200%;
+
+}
+#personalizationActiveScreen {
+    width: 100%;
+    height: 100%;
+    background-image: url("Active_img.jpeg");
+    background-size: 100% 100%;
+
+}
+
+#spacePersonalizationTop {
+    width: 100%;
+    height: 20%;
+
+}
+#personalizationQuestionRow {
+    width: 100%;
+    height: 40%;
+
+
+}
+#personalizationQuestionBoundary{
+    height: 100%;
+    width: 800px;
+
+    margin: auto;
+}
+
+#personalizationQuestion {
+    width: 100%;
+    height: 97px;
+
+
+}
+#personalizationQuestionTextBoundary {
+    height: 97px;
+    width: 525px;
+    margin: auto;
+
+
+
+}
+#personalizationQuestionText2Boundary {
+    height: 97px;
+    width: 455px;
+    margin: auto;
+
+
+
+
+}
+#personalizationQuestionBoundary p {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    color: white;
+    margin: auto;
+
+
+
+}
+
+
+#personalizationButton {
+    width: 100%;
+    height: 97px;
+
+
+}
+#personalizationYes {
+    width: 39%;
+    height: 97px;
+    float: left;
+
+
+}
+#personalizationYesButton {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    background: transparent;
+    border: none;
+    color: white;
+    float: right;
+
+
+}
+
+#personalizationOr p{
+    width: 60px;
+    font-size: 60px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    float: left;
+    margin: auto;
+    margin-left: 6%;
+    margin-right: 7%;
+
+
+}
+#personalizationNo {
+    width: 39%;
+    height: 97px;
+
+    float: right;
+
+
+}
+#personalizationNoButton {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial;
+    background: transparent;
+    border: none;
+    color: white;
+    float: left;
+
+}
+
+@media screen and (max-width: 800px) {
+    #personalizationNoButton, #personalizationYesButton {
+        font-size: 40px;    
+    }
+
+    #personalizationQuestionBoundary p { 
+        font-size: 40px;
+        width: 180px;
+        
+    }
+    #personalizationQuestionBoundary{
+        width: 300px;
+    }
+    #personalizationQuestionTextBoundary {
+        width: 300px;
+    }
+    #personalizationOr p{ 
+        font-size: 30px;
+        width: 30px;
+        margin-right: 1%;
+        margin-top: 3%;
+    }
+    #personalizationQuestionText2Boundary {
+        width: 200px;
+
+    }
+
+}
+@media screen and (max-width: 450px) {
+    #personalizationOr p, #personalizationNoButton, #personalizationYesButton, #personalizationQuestionBoundary p {
+        color: #40bf8a;
+    }
+    #personalizationRelaxScreen {
+        background: white;
+    }
+    #personalizationActiveScreen {
+        background: white;
+    }
+
+}
+
+
+
+
+/* Personalization page END */
+
+
+
+
+
+#userIconBoundary {
+    width: 100%;
+}
+#userIcon {
+    width: 170px;
+    margin: auto;
+}
+#background {
+    width: 100%;
+}
+#inputScreen {
+    width: 100%;
+    height: 100%;
+    background: white;
+
+
+
+}
+#inputBoundary {
+    width: 606px;
+    margin: auto;
+}
+
+.inputBox {
+    width: 600px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+
+}
+#input {
+    margin: auto;
+    margin-top: 5%;
+
+
+
+}
+
+.inputBoxSmall {
+    width: 295px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+/* FLight input page */
+
+.directoryButtonInputPage {
+    background-color: #40bf8a;
+    border-color: #40bf8a;
+    width: 70px;
+    height: 70px;
+    margin-right: 8px;
+    margin-top: 8px;
+
+}
+#inputFlightDateAndNumber p {
+    font-weight: bold;
+}
+
+#inputFlightDateAndNumber {
+    position: relative;
+    margin-top: -2.5%;
+    /*background: purple;*/
+}
+#inputFlightDateAndNumber p {
+    color: white;
+    font-family: Arial;
+}
+#inputFlightLocationBoxFrom, #inputFlightLocationBoxTo {
+    margin-top: 4%;
+    font-size: 80%;
+    height: 45%;
+    width: 40%;
+}
+#inputFlightLocation {
+    height: 70px;
+
+
+}
+
+#spaceFlightInput {
+    width: 100%;
+    height: 5%;
+}
+#spaceFlightDetails {
+    height: 13.231915%;
+}
+#inputFlightDetailsScreen {
+    width: 100%;
+    height: 86.206897%;
+    margin: auto;
+    background-image: url("backgorund_image.jpeg");
+    background-position: center;
+    
+    background-size: 100% 100%;
+
+}
+
+#inputFlightDetailsBoundary {
+    width: 70%;
+    height: 400px; 
+    float: center;
+    margin: auto;
+
+
+}
+#inputSubmit {
+    height: 70px;
+
+
+}
+#submitButton {
+
+    margin-top: 4%;
+    font-weight: bold;
+    color: white;
+
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: #40bf8a;
+}
+#flightFormBoundary {
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    /*background: blue;*/
+
+    top: 20%;
+}
+
+
+/* ------- Collage (index page) --------- */
+
+#directoryButtonScreen {
+    width: 100%;
+    height: 615px;
+    
+    background-image: url("background.jpeg");
+
+    background-position: center;
+    background-size: 100% 615px;
+
+
+
+}
+#directoryButtonBoundary {
+    width: 616.812px;  
+    height: 480px;
+    padding: 5%;
+    margin: auto;
+
+}
+
+#directoryButtonBoundaryLeftColumn1 {
+    width: 616.812px;  
+    height: 480px;
+    padding: 5%;
+    margin: auto;
+
+}
+#directoryButtonsBoundaryLeft {
+    width: 50%;
+    height: 66.666667%; 
+
+    margin: auto;
+    float: left;
+}
+#directoryButtonsBoundaryRight {
+    width: 50%;
+    height: 66.666667%; 
+
+    margin:auto;
+    float: left;
+}
+#directoryButtonsBoundaryBottom {
+    width: 100%;
+    height: 33.333333%;
+
+    float: right;
+}  
+
+
+#column1 {
+    width: 50%;
+    height: 100%;
+   
+    float: left;
+}
+#column2 {
+    width: 50%;
+    height: 100%;
+ 
+    float: right;
+
+}
+#row1 {
+    width: 100%;
+    height: 50%;
+  
+
+}
+#row2 {
+    width: 100%;
+    height: 50%;
+
+}
+#directoryButtonFlight {
+
+    width: 100%;
+    height: 50%;
+    float: left;
+
+
+}
+
+#directoryButtonAccomodation {
+
+    width: 100%;
+    height: 50%;
+    float: left;
+
+
+}
+#directoryButtonActivities {
+
+    width: 100%;
+    height: 100%;
+    float: left;
+
+
+}
+#directoryButtonCruises {
+
+    width: 50%;
+    height: 100%;
+    float: left;
+
+
+}
+#directoryButtonBlog {
+
+    width: 50%;
+    height: 100%;
+    float: right;
+
+}
+
+#directoryButtonPackage {
+
+    width: 100%;
+    height: 100%;
+    float: left;
+
+}
+
+
+#directoryButtonDiscover {
+
+    width: 50%;
+    height: 100%;
+    float: left;
+
+
+
+}
+#directoryButtonDeals {
+
+    width: 25%;
+    height: 100%;
+    float: left;
+
+}
+.directoryButtonLongHeight{
+    background-color: #40bf8a;
+
+    border-color: #40bf8a;
+    width: 93.75%;
+    height: 96.879844%;
+    opacity: 0.9;
+
+
+}
+.directoryButtonLong {
+    background-color: #40bf8a;
+
+    border-color: #40bf8a;
+    width: 96.875%;
+    height: 93.759376%;
+    opacity: 0.9;
+
+    
+}
+
+.directoryButton {
+    background-color: #40bf8a;
+    border-color: #40bf8a;
+    width: 93.75%;
+    height: 93.759376%;
+    opacity: 0.9;
+
+}
+/* COLLAGE ENDS HERE*/
+
+
+
+
+
+.registerButton {
+    width: 100px;
+    height: 50px;
+    margin: right;
+}
+
+#header {
+    background:#40bf8a;
+    width: 100%;
+    height: 100px;
+
+}
+
+#logoBoundary {
+    width: 160px;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+
+
+}
+#logo {
+    margin: auto;
+    margin-top: 6%;
+    width: 160px; 
+    height: 80px;
+
+
+}
+
+#register {
+
+    width: 200px;
+    height: 100%;
+    float: right;
+
+    margin-right: 2%;
+
+}
+
+#registerBoundary {
+    margin-top: 15%;
+    height: 40%;
+    width: 100%;
+
+}
+.registerButtonLeft, .registerButtonRight {
+    background: #227945; 
+    border-radius: 3px;
+    border-color: #227945;
+    color: white;
+    font-size: 80%;
+    width: 80px;
+    height: 100%;
+}
+
+
+.registerButtonLeft {
+    margin-left: 2%;
+    background: #40bf8a;
+    float: left;
+
+}
+.registerButtonRight {
+    margin-right: 2%;
+    background: #40bf8a;
+    float: right;
+}
+/*
+learn more text
+*/ 
+
+
+#companyInfo p {
+    color: #38c772;
+    font-family: Arial;
+}
+
+#companyInfo {
+    width: 80%;
+    margin: auto;
+
+}
+h2, h3 {
+    color: #227945;
+    font-family: Arial;
+}
+.extraInfo {
+    color: gray;
+    font-size: 12px;
+    
+}
+
+
+@media screen and (max-width: 685px) {
+
+    #directoryButtonBoundary {
+        width: 90%;  
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 595px) {
+
+    #register {
+        width: 170px;
+
+    }
+    #registerBoundary {
+        margin-top: 14%;
+
+    }
+
+
+
+}
+@media screen and (max-width: 560px) {
+    #directoryButtonScreen {
+        background: white;
+        height: 300px;
+    }
+
+    #directoryButtonBoundary {
+        height: 300px;
+
+    }
+    #logo {
+        width: 120px;
+        height: 50px;
+    }
+
+    #logoBoundary {
+        width: 130px;
+        margin-top: 1.5%;    
+    }
+    #header {
+        height: 75px;
+    }
+    #backButton {
+        float: right;
+        width: 60px;
+        height: 20px;
+    }
+    #inputFlightLocationBoxFrom {
+        height: 35px;
+        width: 250px;
+        border-color: lightgrey;
+        float: left;
+
+        
+    }
+    #inputFlightLocationBoxTo {
+        height: 35px;
+        width: 250px;
+        border-color: lightgrey;
+        float: left;
+        
+    }
+
+
+    #inputFlightLocation {
+        height: 120px;
+    }
+    
+    #inputFlightDateBoxDeparting {
+        border-color: lightgrey;
+    }
+    #inputFlightDateBoxReturn {
+        border-color: lightgrey;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+    #flight_image {
+        width: 50px;
+        height: 40px;
+    }
+    #accomodation_image {
+        width: 50px;
+        height: 40px;
+    }
+    #package_image {
+        width: 50px;
+        height: 65px;
+    }
+    #cruise_image {
+        width: 45px;
+        height: 45px;
+    }
+    #blog_image {
+        width: 40px;
+        height: 40px;
+    }
+    #activities_image {
+        width: 40px;
+        height: 50px;
+    }
+
+    #discover_image {
+        width: 45px;
+        height: 45px;
+    }
+    #deals_image {
+        width: 40px;
+        height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    #inputBoundary {
+        width: 95%;
+    }
+    .inputBox {
+        width: 95%;
+        height: 25px;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+
+    }
+
+    .inputBoxSmall {
+        width: 95%;
+        height: 25px;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    #inputFlightDetailsScreen {
+        width: 100%;
+        height: 100%;
+
+        background: white;
+    }
+    #inputFlightDetailsBoundary {
+        background: white;
+        height: 100%;
+        width: 100%;
+        
+    }
+    #spaceFlightDetails {
+        height: 10px;
+    }
+    #flightFormBoundary {
+        width: 90%;
+    }
+    #inputFlightDateAndNumber p {
+        color: #38c772;
+    }
+    #spaceFlightDetails {
+        height: 0.5%;
+
+    }
+}
+
+@media screen and (max-width: 986px) {
+    #inputFlightDetailsBoundary {
+        width: 90%;
+        height: 550px; 
+    
+    }
+    #spaceFlightDetails {
+        height: 0.5%;
+    }
+}
+
+
